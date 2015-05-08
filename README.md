@@ -9,7 +9,7 @@
 Encore is for queueing callbacks. It ensures that a single executor runs a block while other callbacks block.
 
     void (^callback)(void) = ^(void) {
-        callbacks++;
+        // ...
     };
     
     + (void)process:(void(^)(NSError *error))callback
