@@ -8,27 +8,25 @@
 
 Encore is for queueing callbacks. It ensures that a single executor runs a block while other callbacks block.
 
-    void (^callback)(void) = ^(void) {
-        // ...
-    };
-    
-    + (void)process:(void(^)(NSError *error))callback
-    {
-        static KSEncore *encore;
-        static dispatch_once_t token;
-        dispatch_once(&token, ^{ encore = [KSEncore new]; });
-      
-        [encore queue:callback block:^{
-            dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-                // ...
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    [encore flush:^(void (^callback)(NSError *error)) {
-                        callback(error);
-                    }];
-                });
+```objc
++ (void)process:(void(^)(NSError *error))callback
+{
+    static KSEncore *encore;
+    static dispatch_once_t token;
+    dispatch_once(&token, ^{ encore = [KSEncore new]; });
+  
+    [encore queue:callback block:^{
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            // ...
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [encore flush:^(void (^callback)(NSError *error)) {
+                    callback(error);
+                }];
             });
-        }];
-    }
+        });
+    }];
+}
+```
 
 ## Installation
 
