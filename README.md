@@ -6,7 +6,7 @@
 
 ## Usage
 
-Encore is a simple processing library for queueing callbacks
+Encore is for queueing callbacks. It ensures that a single executor runs a block while other callbacks block.
 
     void (^callback)(void) = ^(void) {
         callbacks++;
