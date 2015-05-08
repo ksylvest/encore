@@ -1,0 +1,8 @@
+.DS*
+build
+*.mode*
+**/*.xcodeproj/*.mode*
+**/*.xcodeproj/*.pbxuser
+**/*.xcodeproj/*.xcworkspace
+**/*.xcodeproj/xcuserdata
+**/*.xcworkspace/xcuserdata

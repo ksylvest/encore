@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'KSEncore', :exclusive => true do
+  pod "KSEncore", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
