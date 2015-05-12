@@ -1,6 +1,6 @@
 PODS:
   - Expecta (1.0.0)
-  - KSEncore (0.1.0)
+  - KSEncore (1.0.1)
   - Specta (1.0.0)
 
 DEPENDENCIES:
@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
-  KSEncore: 904d8fcd67bf9b6daaf80f5c39c31dbdf94eb134
+  KSEncore: 372536d33b0799a7053012a0e6be95ecdf1ca4e8
   Specta: 96fe05fe5c7348b5223f85e862904f6e832abb14
 
 COCOAPODS: 0.37.1

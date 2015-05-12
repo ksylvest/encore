@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>894BF28A-9F9D-4A66-982F-CE51F488874A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KSEncore</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B8AA481C869E982B157FB96BD9F177ACD7655801</key>
+		<string>github.com:ksylvest/encore.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/KSEncore.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B8AA481C869E982B157FB96BD9F177ACD7655801</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ksylvest/encore.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B8AA481C869E982B157FB96BD9F177ACD7655801</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B8AA481C869E982B157FB96BD9F177ACD7655801</string>
+			<key>IDESourceControlWCCName</key>
+			<string>encore</string>
+		</dict>
+	</array>
+</dict>
+</plist>
