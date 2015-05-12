@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "KSEncore"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "Encore eliminates duplicate calls by queueing callbacks."
   s.description      = <<-DESC
                        * Queue up callbacks using `queue:block:`
